@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.modal-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .action-buttons {
+    margin-top: 15px;
+  }
+  .delete-action-buttons {
+    align-self: center;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .btn {
+    width: 100px;
+    height: 50px;
+  }
+  .modal-info h1 {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .modal-info p {
+    font-family: sans-serif;
+    text-align: justify;
+  }
+  .add__modal-title {
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .preview-image {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    align-self:center
+  }
+  .modal-content {
+    border: none !important;
+    padding: 10px 0;
+  }
+  .modal-content-name,
+  .modal-content-price,
+  .modal-content-phone,
+  .modal-content-location,
+  .modal-content-desc {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .modal__ad__name-input,
+  .modal__ad__price-input,
+  .modal__ad__phone-input,
+  .modal__ad__location-input
+  .modal__ad__desc-textarea {
+    padding: 5px;
+    font-family: sans-serif;
+  }
+  .modal__ad__desc-textarea {
+    height: 200px;
+  }
+  .modal-content-desc {
+    margin-top: 15px;
+  }
+  .upload-image-btn {
+    width: 50%;
+    margin-top: 10px;
+    align-self: center;
+  }
+  .image-preview {
+    border: none;
+    width: 150px;
+    height: 150px;
+    align-self:center
+  }
+  
